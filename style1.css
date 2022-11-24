@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Bangers";
+    src: url("Ressources/police/Bangers.ttf") format("truetype");
+}
+
+body{
+    background-image: url(/Ressources/img/fonds/accueil.png);
+    background-size: 1500px 1080px;
+}
+
+h1 {
+    font-family: "Bangers", serif;
+    color: white;
+  }
+
+.square {
+    font-family: "Bangers", serif;
+    border: 2px solid white;
+    color: white;
+    font-size: 50px;
+    padding: 2px;
+    margin: 2px;
+}
+.square2 {
+    font-family: "Bangers", serif;
+    border: 2px solid white;
+    color: white;
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px;
+}
+
+.contenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    margin: auto;
+}
+
+#video {
+    width: 900px ;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    top: 270px;
+    transform: translate(-50%, -50%);
+}
+
