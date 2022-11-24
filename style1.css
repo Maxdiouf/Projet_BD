@@ -47,3 +47,17 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+#ono1 {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+}
+
+#ono2 {
+    position: absolute;
+    height: 160px;
+    width: 150px;
+    top: 570px;
+    right: 200px;
+}
+
