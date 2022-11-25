@@ -5,7 +5,7 @@
 
 body{
     background-image: url(/Ressources/img/fonds/accueil.png);
-    background-size: 1500px 1080px;
+    background-size: 1500px 2048px;
 }
 
 h1 {
@@ -107,6 +107,7 @@ h1 {
     color: white;
     text-align: center;
     margin-top: 40px;
+    position: relative;
 }
 
 #livre1 {
